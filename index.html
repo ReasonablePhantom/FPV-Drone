@@ -1,31 +1,58 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>b</title>
-	</head>
-	<body>
-		<!-- 60秒后跳转到https://www.getfpv.com/ -->
-		<form name="form1">
-			<input type="text" name="clock" size="2" value="60" >秒后自动跳转网页
-		</form>
-		
-		<!-- 设置定时器，每一秒时间减1 -->
-		<script type="text/javascript">
-			var time1 = parseInt(document.getElementsByTagName("input")[0].value);//转为Number型
-			function myFunction(){
-				if(time1<=0){
-					//alert(1);
-//					location.href = "https://www.getfpv.com/";
-					window.open("https://www.getfpv.com/");
-					clearInterval(a);
-				}
-				document.getElementsByTagName("input")[0].value = time1;
-				time1--;
-			}		 
-			var a = setInterval(myFunction,1000);
-			
-		</script>	
-	</body>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+        </style>
+        <title>DIY Drone Store </title>
+    </head>
+    <body>
+    
+        <div class="toubu">
+            <h1 class="title">DIY DRONE STORE ONLINE </h1>
+            <h3 class="dronepart">DRONE PART</h3>
+            <div class="kindofdrone">
+            
+            <button class="dongli">Propeller and Brushless Motor</button>
+        <img src="https://mxzdy.cn/total_img/12/11/s_9292.jpg">
+        <img src="https://www.progressiverc.com/media/catalog/product/cache/1/image/350x/040ec09b1e35df139433887a97daa66f/g/f/gf_5045.jpg">
+            <button class="ESC">ESC</button>
+        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2017/03/07/goods_img_big-v1/20170307144849_24704.jpg">    
+            <button class="feikong">Flight Controller</button>
+        <img src="http://d1f3xz7hjchz45.cloudfront.net/images/le-0375-big.jpg">    
+            <button class="jieshou">Receiver and Remote</button>
+        <img src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/13/D3/e1e67934-711f-4a17-83ed-2e85039398c2.jpg.webp">    
+            <button class="dianli">Battery</button>
+        <img src="https://cdn.shopify.com/s/files/1/1285/4651/products/tattu-3s-1300_1800x1800.jpg?v=1579822967">    
+            </div>
+        </div>
+        
+       <div class="kinfoftool">
+        
+        <div class="weibu">
+        
+        <h4 class="toolpart">Here is some important for build a drone.</h4>
+         
+        
+         
+        
+        <button class="SI">Soldering Iron</button>
+        <img src="https://contestimg.wish.com/api/webimage/5bbd5d6b24f55834f8654ed7-0-feed?cache_buster=80b5328559707841a352ff14cb977dd9">
+        
+        <button class="SD">Screwdriver</button>
+         <img src="https://www.staples-3p.com/s7/is/image/Staples/s0470804_sc7?wid=512&hei=512">
+        
+        <button class="HAG">Hot Air Gun</button>
+         <img src="https://content.interlinebrands.com/product/Image/Detail/0/298459_usn.jpg">
+        
+        <button class="CT">Cable Tie</button>
+         <img src="https://images-na.ssl-images-amazon.com/images/I/714ix403vAL._AC_SL1500_.jpg">
+        
+        
+       </div>
+        
+        </div>
+        <div class="support"><button class="supportbutton">!!!Click Here For Tech Support!!!</button></div>
+
+    </body>
 </html>
