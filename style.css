@@ -1,0 +1,81 @@
+.title {
+    font-family: 'Patua One', cursive;
+    color:purple;
+     background-color:lightgreen;
+}
+
+.toubu ,.weibu{
+    text-align: center;
+    
+  
+}
+.kindofdrone ,.kindoftool{
+    
+    display: flex;
+    
+    
+    flex-wrap: nowrap;
+    
+    font-weight:700;
+
+    }
+.dronepart {
+    color:darkred;
+    }
+    .dongli{
+        color:red;
+        background:blue;
+        }
+    .ESC{
+        color:orange;
+        background:blue;
+        }
+        .feikong{
+            color:yellow;
+            background:blue;
+            }
+        .jieshou{
+            color:lightgreen;
+            background:blue;
+            }
+            .dianli{
+                color:lightblue;
+                background:blue;
+                }
+                img{
+            width:150px;height:190px;      
+                    }
+                   .toolpart{
+    color:yellow;
+    background:lightgreen;
+    }
+    .SI{
+        color:red;
+        background-color:lightgreen;
+        }
+        .SD{
+        color:red;
+        background-color:lightgreen;
+        }
+        .HAG{
+        color:red;
+        background-color:lightgreen;
+        }
+        .CT{
+        color:red;
+        background-color:lightgreen;
+        }
+.support{
+    text-align:center;
+    color:darkgreen;
+    background-color:yellow;
+    
+    }
+    html {
+    background-image: url("https://wallpapercave.com/wp/GTrby6G.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
