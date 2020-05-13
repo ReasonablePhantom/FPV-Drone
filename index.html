@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>b</title>
+	</head>
+	<body>
+		<!-- 6秒后跳转到http://www.baidu.com -->
+		<form name="form1">
+			<input type="text" name="clock" size="2" value="6" >秒后自动跳转网页
+		</form>
+		
+		<!-- 设置定时器，每一秒时间减1 -->
+		<script type="text/javascript">
+			var time1 = parseInt(document.getElementsByTagName("input")[0].value);//转为Number型
+			function myFunction(){
+				if(time1<=0){
+					//alert(1);
+//					location.href = "http://www.baidu.com";
+					window.open("http://www.baidu.com");
+					clearInterval(a);
+				}
+				document.getElementsByTagName("input")[0].value = time1;
+				time1--;
+			}		 
+			var a = setInterval(myFunction,1000);
+			
+		</script>	
+	</body>
+</html>
